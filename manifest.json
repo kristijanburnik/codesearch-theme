@@ -1,8 +1,8 @@
 {
-  "name": "chromiumcs",
-  "version": "0.6.1",
-  "description": "Displays chromium code search in different colors",
-  "icons": { "128": "icon.png" },
+  "name": "Chromium CodeSearch Theme",
+  "version": "0.0.1",
+  "description": "Displays chromium code search in a customized theme",
+  "icons": { "128": "themes-icon.png" },
   "background": { "scripts": ["background.js"] },
   "content_scripts": [
     { "matches": ["https://code.google.com/p/chromium/*"], "js": ["chromiumcs_content_script.js"] , "css" : ["chromiumcs_content.css"] }
@@ -14,7 +14,7 @@
   ],
   "page_action": {
       "default_name": "Select style",
-      "default_icon": "marker.png",
+      "default_icon": "themes-icon.png",
       "default_popup": "popup.html"
   },
   "manifest_version": 2
