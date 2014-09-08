@@ -7,7 +7,15 @@ if (window == top) {
   chrome.extension.onRequest.addListener(function(req, sender, sendResponse) {
     // sendResponse(findAddress());
   });
+
+
+  var body = document.getElementsByTagName("body")[0];
+  body.className += " codesearch-theme";
+  // default theme
+  body.className += " monokai";
 }
+
+
 
 // Search the text nodes for a US-style mailing address.
 // Return null if none is found.

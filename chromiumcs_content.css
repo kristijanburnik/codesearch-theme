@@ -1,12 +1,12 @@
-body {
-  background: #272822 !important;
-  color:#ddd !important;
+body.codesearch-theme.monokai {
+  background: #272822 ;
+  color:#ddd ;
 }
 
 
-.gtb {
-background: none repeat scroll 0 0 #222 !important;
-border-bottom: 1px solid #555 !important;
+.codesearch-theme.monokai .gtb {
+background: none repeat scroll 0 0 #222 ;
+border-bottom: 1px solid #555 ;
 font: 82% arial, sans-serif;
 height: 26px;
 padding: 5px 10px 0 5px;
@@ -14,108 +14,108 @@ white-space: nowrap;
 }
 
 
-.stx-line {
+.codesearch-theme.monokai .stx-line {
 display: block;
 color: #eee;
 }
 
-span.stx-comment {
-  color:#F55 !important;
+.codesearch-theme.monokai span.stx-comment {
+  color:#F55 ;
 }
 
-span.stx-keyword {
-  color:#0aF !important;
+.codesearch-theme.monokai span.stx-keyword {
+  color:#0aF ;
 }
 
-.stx-macro, .stx-macro a {
-color: #f5b !important;
+.codesearch-theme.monokai .stx-macro, .stx-macro a {
+color: #f5b ;
 }
 
-a.linelink {
-  background:#272822 !important;
-  color:#555 !important;
+.codesearch-theme.monokai a.linelink {
+  background:#272822 ;
+  color:#555 ;
 }
 
-.stx-string, .stx-string a {
-color: #5D0 !important;
+.codesearch-theme.monokai .stx-string, .stx-string a {
+color: #5D0 ;
 }
 
 /*
-div.headbg {
+.codesearch-theme.monokai div.headbg {
   display:none;
 }
 */
 
-#codesitebar {
+.codesearch-theme.monokai #codesitebar {
   height: 30px;
 }
 
-.CGB {
-  background: #272822 !important;
+.codesearch-theme.monokai .CGB {
+  background: #272822 ;
   color:#eee;
 }
 
-.IL {
-  background-color:#222 !important;
+.codesearch-theme.monokai .IL {
+  background-color:#222 ;
 }
 
-.gwt-TabLayoutPanelTabs-outer {
- background-color:#222 !important;
+.codesearch-theme.monokai .gwt-TabLayoutPanelTabs-outer {
+ background-color:#222 ;
 }
 
-.gwt-SplitLayoutPanel-HDragger {
-background-color: #222 !important;
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-HDragger {
+background-color: #222 ;
 cursor: col-resize;
 }
 
-.HQ {
-  background: #222 !important;
+.codesearch-theme.monokai .HQ {
+  background: #222 ;
 }
 
-.IGB>a {
-color: #ddd !important;
+.codesearch-theme.monokai .IGB>a {
+color: #ddd ;
 text-decoration: none;
 }
 
-a {
-  color:#0aF !important;
+.codesearch-theme.monokai a {
+  color:#0aF ;
 }
-a:visited {
-color: #558 !important;
-}
-
-a.tab.active {
-  background:#555 !important;
-  color: white !important;
+.codesearch-theme.monokai a:visited {
+color: #558 ;
 }
 
-
-.HO , div.NQ {
-background-color: #777 !important;
+.codesearch-theme.monokai a.tab.active {
+  background:#555 ;
+  color: white ;
 }
 
 
-.NM {
-background-color: #661 !important;
+.codesearch-theme.monokai .HO , div.NQ {
+background-color: #777 ;
 }
 
 
-.gwt-TabText {
-color: #0aF !important;
+.codesearch-theme.monokai .NM {
+background-color: #661 ;
 }
 
 
-.PM {
-border-left: 3px solid #222 !important;
-border-bottom: 3px solid #222 !important;
-border-right: 3px solid #222 !important;
-}
-
-.FM .IL {
-border-bottom: solid 1px #222 !important;
+.codesearch-theme.monokai .gwt-TabText {
+color: #0aF ;
 }
 
 
-.KMB {
-border-right: 1px solid #444 !important;
+.codesearch-theme.monokai .PM {
+border-left: 3px solid #222 ;
+border-bottom: 3px solid #222 ;
+border-right: 3px solid #222 ;
+}
+
+.codesearch-theme.monokai .FM .IL {
+border-bottom: solid 1px #222 ;
+}
+
+
+.codesearch-theme.monokai .KMB {
+border-right: 1px solid #444 ;
 }
