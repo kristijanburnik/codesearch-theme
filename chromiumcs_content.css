@@ -1,0 +1,121 @@
+body {
+  background: #272822 !important;
+  color:#ddd !important;
+}
+
+
+.gtb {
+background: none repeat scroll 0 0 #272822 !important;
+border-bottom: 1px solid #6B90DA;
+font: 82% arial, sans-serif;
+height: 26px;
+padding: 5px 10px 0 5px;
+white-space: nowrap;
+}
+
+
+.stx-line {
+display: block;
+color: #eee;
+}
+
+span.stx-comment {
+  color:#F55 !important;
+}
+
+span.stx-keyword {
+  color:#0aF !important;
+}
+
+.stx-macro, .stx-macro a {
+color: #f5b !important;
+}
+
+a.linelink {
+  background:#272822 !important;
+  color:#555 !important;
+}
+
+.stx-string, .stx-string a {
+color: #5D0 !important;
+}
+
+/*
+div.headbg {
+  display:none;
+}
+*/
+
+#codesitebar {
+  height: 30px;
+}
+
+.CGB {
+  background: #272822 !important;
+  color:#eee;
+}
+
+.IL {
+  background-color:#222 !important;
+}
+
+.gwt-TabLayoutPanelTabs-outer {
+ background-color:#222 !important;
+}
+
+.gwt-SplitLayoutPanel-HDragger {
+background-color: #222 !important;
+cursor: col-resize;
+}
+
+.HQ {
+  background: #222 !important;
+}
+
+.IGB>a {
+color: #ddd !important;
+text-decoration: none;
+}
+
+a {
+  color:#0aF !important;
+}
+a:visited {
+color: #558 !important;
+}
+
+a.tab.active {
+  background:#555 !important;
+  color: white !important;
+}
+
+
+.HO , div.NQ {
+background-color: #777 !important;
+}
+
+
+.NM {
+background-color: #661 !important;
+}
+
+
+.gwt-TabText {
+color: #0aF !important;
+}
+
+
+.PM {
+border-left: 3px solid #222 !important;
+border-bottom: 3px solid #222 !important;
+border-right: 3px solid #222 !important;
+}
+
+.FM .IL {
+border-bottom: solid 1px #222 !important;
+}
+
+
+.KMB {
+border-right: 1px solid #444 !important;
+}
