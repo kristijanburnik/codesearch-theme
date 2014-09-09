@@ -5,7 +5,7 @@
   "icons": { "128": "themes-icon.png" },
   "background": { "scripts": ["background.js"] },
   "content_scripts": [
-    { "matches": ["https://code.google.com/p/chromium/*"], "js": ["chromiumcs_content_script.js"] , "css" : ["chromiumcs_content.css"] }
+    { "matches": ["https://code.google.com/p/chromium/codesearch*"], "js": ["chromiumcs_content_script.js"] , "css" : ["chromiumcs_content.css"] }
   ],
   "permissions": [
     "tabs",
