@@ -71,7 +71,9 @@ color: #aaa ;
   color: white ;
 }
 
-.codesearch-theme.monokai .HO , div.NQ {
+.codesearch-theme.monokai .HO,
+.codesearch-theme.monokai div.NQ,
+.codesearch-theme.monokai .FM .MQ {
 background-color: #555 ;
 }
 
@@ -85,8 +87,11 @@ border-bottom: 3px solid #222 ;
 border-right: 3px solid #222 ;
 }
 
-.codesearch-theme.monokai .FM .IL {
-border-bottom: solid 1px #222 ;
+/* border of left sidebar and right part stripe with title  */
+.codesearch-theme.monokai .FM .IL ,
+.codesearch-theme.monokai .gwt-TabLayoutPanelTabs-outer
+{
+  border-bottom: solid 1px #444 ;
 }
 
 
@@ -229,4 +234,5 @@ border-bottom: 3px solid #444;
 .codesearch-theme.monokai .FYB {
 border-bottom: 1px solid #444;
 }
+
 
