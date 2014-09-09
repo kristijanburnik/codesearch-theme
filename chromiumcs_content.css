@@ -13,7 +13,7 @@ border-bottom: 1px solid #555 ;
 }
 
 .codesearch-theme.monokai .stx-line {
-color: #eee;
+  color: #eee;
 }
 
 .codesearch-theme.monokai .stx-comment {
@@ -56,7 +56,9 @@ color: #ddd ;
 text-decoration: none;
 }
 
-.codesearch-theme.monokai a, .codesearch-theme.monokai .gwt-TabText {
+.codesearch-theme.monokai a,
+.codesearch-theme.monokai .O4B,
+.codesearch-theme.monokai .gwt-TabText {
   color:#82B2DD;
 }
 
@@ -114,7 +116,7 @@ color: rgb(238, 238, 238);
 }
 
 .codesearch-theme.monokai a.AYB {
-  color:#0aF !important;
+  color:#aaa !important;
 }
 
 .codesearch-theme.monokai .CO {
@@ -170,3 +172,61 @@ color:#ddd;
 {
   background-color: #555;
 }
+
+
+/* Search input  */
+.codesearch-theme.monokai .F1B {
+  background:#555;
+  border: 1px solid #444;
+  color:#eee;
+}
+
+.codesearch-theme.monokai .AQB {
+  color:inherit;
+}
+
+.codesearch-theme.monokai  .CQB>div:first-child>a {
+  color: #ddd;
+}
+
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-VDragger,
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-HDragger
+ {
+  background-color: #444 !important;
+}
+
+.codesearch-theme.monokai .gwt-FastTree {
+background: inherit;
+color:#ddd;
+}
+
+.codesearch-theme.monokai .EQ {
+  color:#eee;
+}
+
+.codesearch-theme.monokai .FQ {
+  color:#ddd;
+}
+
+
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent,
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent .outlineparam,
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent .outlineicon
+{
+  background-color: #555;
+}
+
+
+/* Border outlines on search results */
+.codesearch-theme.monokai .KSB {
+border-left: 3px solid #444;
+border-right: 3px solid #444;
+border-bottom: 3px solid #444;
+}
+
+
+/* Border between search results */
+.codesearch-theme.monokai .FYB {
+border-bottom: 1px solid #444;
+}
+
