@@ -3,32 +3,30 @@ body.codesearch-theme.monokai {
   color:#ddd ;
 }
 
-
 .codesearch-theme.monokai .gtb {
 background: none repeat scroll 0 0 #222 ;
 border-bottom: 1px solid #555 ;
-font: 82% arial, sans-serif;
-height: 26px;
-padding: 5px 10px 0 5px;
-white-space: nowrap;
 }
 
+.codesearch-theme.monokai .gtb .active {
+  border-color: #444;
+}
 
 .codesearch-theme.monokai .stx-line {
-display: block;
 color: #eee;
 }
 
-.codesearch-theme.monokai span.stx-comment {
+.codesearch-theme.monokai .stx-comment {
   color:#A85 ;
 }
 
-.codesearch-theme.monokai span.stx-keyword {
+.codesearch-theme.monokai .stx-keyword {
   color:#0bf ;
 }
 
-.codesearch-theme.monokai .stx-macro, .stx-macro a {
-color: #f5b ;
+.codesearch-theme.monokai .stx-macro,
+.codesearch-theme.monokai .stx-macro a {
+  color: #f5b ;
 }
 
 .codesearch-theme.monokai a.linelink {
@@ -37,17 +35,7 @@ color: #f5b ;
 }
 
 .codesearch-theme.monokai .stx-string, .stx-string a {
-color: #5D0 ;
-}
-
-/*
-.codesearch-theme.monokai div.headbg {
-  display:none;
-}
-*/
-
-.codesearch-theme.monokai #codesitebar {
-  height: 30px;
+  color: #5D0 ;
 }
 
 .codesearch-theme.monokai .CGB {
@@ -55,21 +43,12 @@ color: #5D0 ;
   color:#eee;
 }
 
-.codesearch-theme.monokai .IL {
+.codesearch-theme.monokai .IL,
+.codesearch-theme.monokai .gwt-TabLayoutPanelTabs-outer,
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-HDragger,
+.codesearch-theme.monokai .HQ
+{
   background-color:#222 ;
-}
-
-.codesearch-theme.monokai .gwt-TabLayoutPanelTabs-outer {
- background-color:#222 ;
-}
-
-.codesearch-theme.monokai .gwt-SplitLayoutPanel-HDragger {
-background-color: #222 ;
-cursor: col-resize;
-}
-
-.codesearch-theme.monokai .HQ {
-  background: #222 ;
 }
 
 .codesearch-theme.monokai .IGB>a {
@@ -77,11 +56,12 @@ color: #ddd ;
 text-decoration: none;
 }
 
-.codesearch-theme.monokai a {
-  color:#0aF ;
+.codesearch-theme.monokai a, .codesearch-theme.monokai .gwt-TabText {
+  color:#82B2DD;
 }
+
 .codesearch-theme.monokai a:visited {
-color: #88D ;
+color: #aaa ;
 }
 
 .codesearch-theme.monokai a.tab.active {
@@ -89,21 +69,13 @@ color: #88D ;
   color: white ;
 }
 
-
 .codesearch-theme.monokai .HO , div.NQ {
-background-color: #777 ;
+background-color: #555 ;
 }
-
 
 .codesearch-theme.monokai .NM {
 background-color: #661 ;
 }
-
-
-.codesearch-theme.monokai .gwt-TabText {
-color: #0aF ;
-}
-
 
 .codesearch-theme.monokai .PM {
 border-left: 3px solid #222 ;
@@ -146,6 +118,55 @@ color: rgb(238, 238, 238);
 }
 
 .codesearch-theme.monokai .CO {
-  background: #4488a8 !important;
+  background: #336698 !important;
 }
 
+.codesearch-theme.monokai .MPB {
+background-color: #444;
+color:#ddd;
+}
+
+.codesearch-theme.monokai .HQB {
+  background: #444;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.codesearch-theme.monokai .GQB a {
+  color:#eee;
+}
+
+.codesearch-theme.monokai .AQB {
+  color:inherit;
+}
+
+.codesearch-theme.monokai  .CQB>div:first-child>a {
+  color: #ddd;
+}
+
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-VDragger,
+.codesearch-theme.monokai .gwt-SplitLayoutPanel-HDragger
+ {
+  background-color: #444 !important;
+}
+
+.codesearch-theme.monokai .gwt-FastTree {
+background: inherit;
+color:#ddd;
+}
+
+.codesearch-theme.monokai .EQ {
+  color:#eee;
+}
+
+.codesearch-theme.monokai .FQ {
+  color:#ddd;
+}
+
+
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent,
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent .outlineparam,
+.codesearch-theme.monokai .gwt-FastTree .selected .treeItemContent .outlineicon
+{
+  background-color: #555;
+}
