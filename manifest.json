@@ -1,6 +1,6 @@
 {
   "name": "Chromium CodeSearch Theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Displays chromium code search in a customized theme",
   "icons": { "128": "themes-icon.png" },
   "background": { "scripts": ["background.js"] },
