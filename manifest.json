@@ -1,22 +1,37 @@
 {
-  "name": "Chromium CodeSearch Theme",
-  "short_name": "codesearch-theme",
-  "version": "0.0.2",
-  "description": "Displays chromium code search in a customized theme",
-  "icons": { "128": "themes-icon.png" },
-  "background": { "scripts": ["background.js"] },
   "content_scripts": [
-    { "matches": ["https://code.google.com/p/chromium/codesearch*"], "js": ["chromiumcs_content_script.js"] , "css" : ["chromiumcs_content.css"] }
-  ],
-  "permissions": [
-    "tabs",
-    "https://maps.google.com/*",
-    "https://maps.googleapis.com/*"
-  ],
+    {
+      "matches": [
+        "https://code.google.com/p/chromium/codesearch*"
+      ], 
+      "js": [
+        "chromiumcs_content_script.js"
+      ], 
+      "css": [
+        "chromiumcs_content.css"
+      ], 
+      "run_at": "document_start"
+    }
+  ], 
+  "description": "Displays chromium code search in a customized theme", 
+  "short_name": "codesearch-theme", 
+  "icons": {
+    "128": "themes-icon.png"
+  }, 
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }, 
+  "name": "Chromium CodeSearch Theme", 
   "page_action": {
-      "default_name": "Select style",
-      "default_icon": "themes-icon.png",
-      "default_popup": "popup.html"
-  },
-  "manifest_version": 2
+    "default_name": "Select style", 
+    "default_icon": "themes-icon.png", 
+    "default_popup": "popup.html"
+  }, 
+  "version": "0.0.4", 
+  "manifest_version": 2, 
+  "permissions": [
+    "https://code.google.com/p/chromium/codesearch*"
+  ]
 }

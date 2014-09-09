@@ -9,10 +9,12 @@ if (window == top) {
   });
 
 
-  var body = document.getElementsByTagName("body")[0];
-  body.className += " codesearch-theme";
-  // default theme
-  body.className += " monokai";
+  window.onload = function() {
+    var body = document.getElementsByTagName("body")[0];
+    body.className += " codesearch-theme";
+    // default theme
+    body.className += " monokai";
+  }
 }
 
 
