@@ -20,11 +20,11 @@ color: #eee;
 }
 
 .codesearch-theme.monokai span.stx-comment {
-  color:#F55 ;
+  color:#A85 ;
 }
 
 .codesearch-theme.monokai span.stx-keyword {
-  color:#0aF ;
+  color:#0bf ;
 }
 
 .codesearch-theme.monokai .stx-macro, .stx-macro a {
@@ -81,7 +81,7 @@ text-decoration: none;
   color:#0aF ;
 }
 .codesearch-theme.monokai a:visited {
-color: #558 ;
+color: #88D ;
 }
 
 .codesearch-theme.monokai a.tab.active {
@@ -119,3 +119,33 @@ border-bottom: solid 1px #222 ;
 .codesearch-theme.monokai .KMB {
 border-right: 1px solid #444 ;
 }
+
+.codesearch-theme.monokai .CSB {
+background-color: #272822;
+}
+
+.codesearch-theme.monokai .PRB {
+background-color: #222;
+}
+
+.codesearch-theme.monokai .IXB {
+background-color: #444;
+color: #eee;
+}
+
+.codesearch-theme.monokai .IYB>pre>a {
+color: rgb(238, 238, 238);
+}
+
+.codesearch-theme.monokai .IYB>pre>a:hover {
+  background-color: #444;
+}
+
+.codesearch-theme.monokai a.AYB {
+  color:#0aF !important;
+}
+
+.codesearch-theme.monokai .CO {
+  background: #4488a8 !important;
+}
+
