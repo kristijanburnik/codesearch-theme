@@ -1,0 +1,187 @@
+body.codesearch-theme.default {
+  /* applied to body - to end of file */
+  background-color: #272822;
+  color: #dddddd;
+  /* Theme based syntax highlighting  */
+  /*.stx-line { color: @light-text-color; }*/
+  /* */
+  /* Theme based syntax highlighting  */
+}
+body.codesearch-theme.default .stx-plain {
+  color: #dddddd;
+}
+body.codesearch-theme.default .stx-comment {
+  color: #aa8855;
+}
+body.codesearch-theme.default .stx-keyword {
+  color: #00bbff;
+}
+body.codesearch-theme.default .stx-macro,
+body.codesearch-theme.default .stx-macro a {
+  color: #ff55bb;
+}
+body.codesearch-theme.default .stx-string,
+body.codesearch-theme.default .stx-string a {
+  color: #55dd00;
+}
+body.codesearch-theme.default .stx-number {
+  color: #ff4d00;
+}
+body.codesearch-theme.default a.NK.NM {
+  color: #ff55bb;
+}
+body.codesearch-theme.default .gtb .active {
+  border-color: #444444;
+}
+body.codesearch-theme.default .IGB > a {
+  color: #dddddd;
+}
+body.codesearch-theme.default a,
+body.codesearch-theme.default .O4B,
+body.codesearch-theme.default .gwt-TabText {
+  color: #82B2DD;
+}
+body.codesearch-theme.default a:visited {
+  color: #aaaaaa;
+}
+body.codesearch-theme.default .HO,
+body.codesearch-theme.default div.NQ,
+body.codesearch-theme.default .FM .MQ {
+  background-color: #555555;
+}
+body.codesearch-theme.default .NM {
+  color: #dddddd !important;
+  background-color: #666611;
+}
+body.codesearch-theme.default .KMB {
+  border-right: 1px solid #444444;
+}
+body.codesearch-theme.default .CSB {
+  background-color: #272822;
+}
+body.codesearch-theme.default .PRB {
+  background-color: #222222;
+}
+body.codesearch-theme.default .AYB {
+  color: #aaaaaa !important;
+}
+body.codesearch-theme.default .EQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.default .FQ {
+  color: #dddddd;
+}
+body.codesearch-theme.default .AQB {
+  color: inherit;
+}
+body.codesearch-theme.default .CO {
+  background-color: #336698 !important;
+}
+body.codesearch-theme.default .MPB {
+  background-color: #444444;
+}
+body.codesearch-theme.default .MPB {
+  color: #dddddd;
+}
+body.codesearch-theme.default .GQB a {
+  color: #eeeeee;
+}
+body.codesearch-theme.default .AQB {
+  color: inherit;
+}
+body.codesearch-theme.default .CQB > div:first-child > a {
+  color: #dddddd;
+}
+body.codesearch-theme.default .FYB {
+  border-bottom: 1px solid #444444;
+}
+body.codesearch-theme.default .EQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.default .FQ {
+  color: #dddddd;
+}
+body.codesearch-theme.default .IYB > pre > a {
+  color: #eeeeee;
+}
+body.codesearch-theme.default .IYB > pre > a:hover {
+  background-color: #444444;
+}
+body.codesearch-theme.default .HQ,
+body.codesearch-theme.default .IL,
+body.codesearch-theme.default .gwt-TabLayoutPanelTabs-outer,
+body.codesearch-theme.default .gwt-SplitLayoutPanel-HDragger {
+  background-color: #222222;
+}
+body.codesearch-theme.default .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.default .gwt-SplitLayoutPanel-HDragger {
+  background-color: #444444 !important;
+}
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent,
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #555555;
+}
+body.codesearch-theme.default .FM .IL,
+body.codesearch-theme.default .gwt-TabLayoutPanelTabs-outer {
+  border-bottom: solid 1px #444444;
+}
+body.codesearch-theme.default .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.default .gwt-SplitLayoutPanel-HDragger {
+  background-color: #444444 !important;
+}
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent {
+  background-color: #555555;
+}
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.default .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #555555;
+}
+body.codesearch-theme.default .gtb {
+  background-color: #222222;
+  border-bottom: 1px solid #555555;
+}
+body.codesearch-theme.default a.linelink {
+  background-color: #272822;
+  color: #555555;
+}
+body.codesearch-theme.default .CGB {
+  background-color: #272822;
+  color: #eeeeee;
+}
+body.codesearch-theme.default .IXB {
+  background-color: #444444;
+  color: #eeeeee;
+}
+body.codesearch-theme.default .gwt-FastTree {
+  background-color: inherit;
+  color: #dddddd;
+}
+body.codesearch-theme.default a.tab.active {
+  background-color: #555555;
+  color: #eeeeee;
+}
+body.codesearch-theme.default .gwt-FastTree {
+  background-color: inherit;
+  color: #dddddd;
+}
+body.codesearch-theme.default .PM {
+  border-left: 3px solid #222222;
+  border-bottom: 3px solid #222222;
+  border-right: 3px solid #222222;
+}
+body.codesearch-theme.default .HQB {
+  background-color: #444444;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid #444444;
+}
+body.codesearch-theme.default .F1B {
+  background-color: #555555;
+  border: 1px solid #444444;
+  color: #eeeeee;
+}
+body.codesearch-theme.default .KSB {
+  border-left: 3px solid #444444;
+  border-right: 3px solid #444444;
+  border-bottom: 3px solid #444444;
+}

@@ -3,35 +3,39 @@
     {
       "matches": [
         "https://code.google.com/p/chromium/codesearch*"
-      ], 
+      ],
       "js": [
-        "chromiumcs_content_script.js"
-      ], 
+        "js/chromiumcs_content_script.js"
+      ],
       "css": [
-        "chromiumcs_content.css"
-      ], 
+        "css/default.css",
+        "css/monokai.css",
+        "css/twilight.css"
+      ],
       "run_at": "document_start"
     }
-  ], 
-  "description": "Displays chromium code search in a customized theme", 
-  "short_name": "codesearch-theme", 
+  ],
+  "description": "Displays chromium code search in a customized theme",
+  "short_name": "codesearch-theme",
   "icons": {
     "128": "themes-icon.png"
-  }, 
+  },
   "background": {
     "scripts": [
-      "background.js"
+      "js/background.js"
     ]
-  }, 
-  "name": "Chromium CodeSearch Theme", 
+  },
+  "name": "Chromium CodeSearch Theme",
   "page_action": {
-    "default_name": "Select style", 
-    "default_icon": "themes-icon.png", 
+    "default_name": "Select style",
+    "default_icon": "themes-icon.png",
     "default_popup": "popup.html"
-  }, 
-  "version": "0.0.7", 
-  "manifest_version": 2, 
+  },
+  "version": "0.0.7",
+  "manifest_version": 2,
   "permissions": [
+    "storage",
     "https://code.google.com/p/chromium/codesearch*"
   ]
 }
+
