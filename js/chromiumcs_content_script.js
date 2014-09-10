@@ -16,16 +16,16 @@ if (window == top) {
 
   // default settings
   var settings = {
-    themeIndex: 3
+    themeIndex: 0
   };
 
   var ready = function() {
 
       var themes = [
-        "",
         "codesearch-theme default",
         "codesearch-theme monokai",
         "codesearch-theme twilight",
+        "" // original native theme
       ];
 
       var body = document.getElementsByTagName("body")[0];
@@ -63,8 +63,15 @@ if (window == top) {
     ready();
   };
 
+  // failsafe
+  setTimeout(function(){
+    if (readyCounter > 0) ready();
+  },500);
+
   load(function(s) {
-    settings = s;
+    if (typeof s == typeof {})
+      for (var x in s)
+        settings[x] = s[x];
     partialReady();
   });
 
