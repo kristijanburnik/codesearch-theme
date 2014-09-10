@@ -1,10 +1,6 @@
 
 if (window == top) {
 
-  chrome.extension.onRequest.addListener(function(req, sender, sendResponse) {
-
-  });
-
   var StorageArea = chrome.storage.sync;
 
   var load = function( readyCallback ) {
@@ -17,9 +13,13 @@ if (window == top) {
     StorageArea.set( items, function() {});
   }; // store
 
-  window.onload = function() {
 
-    load(function(settings) {
+  // default settings
+  var settings = {
+    themeIndex: 3
+  };
+
+  var ready = function() {
 
       var themes = [
         "",
@@ -51,11 +51,23 @@ if (window == top) {
 
 
       // init
-      var themeIndex = ('themeIndex' in settings) ? settings['themeIndex'] : 3;
+      var themeIndex = settings['themeIndex'];
       setTheme( themeIndex );
 
-    }); // load
+   }; // ready
 
-   }; // window.load
+  // both events need to finish
+  var readyCounter = 2;
+  var partialReady = function(){
+    if (--readyCounter > 0) return;
+    ready();
+  };
+
+  load(function(s) {
+    settings = s;
+    partialReady();
+  });
+
+  document.addEventListener('DOMContentLoaded', partialReady, false);
 
 } // if
