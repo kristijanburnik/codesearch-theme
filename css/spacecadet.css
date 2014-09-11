@@ -1,0 +1,187 @@
+body.codesearch-theme.spacecadet {
+  /* applied to body - to end of file */
+  background-color: #0d0d0d;
+  color: #eeeeee;
+  /* Theme based syntax highlighting  */
+  /*.stx-line { color: @light-text-color; }*/
+  /* */
+  /* Theme based syntax highlighting  */
+}
+body.codesearch-theme.spacecadet .stx-plain {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .stx-comment {
+  color: #443e4a;
+}
+body.codesearch-theme.spacecadet .stx-keyword {
+  color: #aed268;
+}
+body.codesearch-theme.spacecadet .stx-macro,
+body.codesearch-theme.spacecadet .stx-macro a {
+  color: #738a61;
+}
+body.codesearch-theme.spacecadet .stx-string,
+body.codesearch-theme.spacecadet .stx-string a {
+  color: #825e7b;
+}
+body.codesearch-theme.spacecadet .stx-number {
+  color: #a56029;
+}
+body.codesearch-theme.spacecadet a.NK.NM {
+  color: #738a61;
+}
+body.codesearch-theme.spacecadet .gtb .active {
+  border-color: #333333;
+}
+body.codesearch-theme.spacecadet .IGB > a {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet a,
+body.codesearch-theme.spacecadet .O4B,
+body.codesearch-theme.spacecadet .gwt-TabText {
+  color: #8b5070;
+}
+body.codesearch-theme.spacecadet a:visited {
+  color: #aaaaaa;
+}
+body.codesearch-theme.spacecadet .HO,
+body.codesearch-theme.spacecadet div.NQ,
+body.codesearch-theme.spacecadet .FM .MQ {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .NM {
+  color: #eeeeee !important;
+  background-color: #444411;
+}
+body.codesearch-theme.spacecadet .KMB {
+  border-right: 1px solid #333333;
+}
+body.codesearch-theme.spacecadet .CSB {
+  background-color: #0d0d0d;
+}
+body.codesearch-theme.spacecadet .PRB {
+  background-color: #000000;
+}
+body.codesearch-theme.spacecadet .AYB {
+  color: #aaaaaa !important;
+}
+body.codesearch-theme.spacecadet .EQ {
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .FQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .AQB {
+  color: inherit;
+}
+body.codesearch-theme.spacecadet .CO {
+  background-color: #336698 !important;
+}
+body.codesearch-theme.spacecadet .MPB {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .MPB {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .GQB a {
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .AQB {
+  color: inherit;
+}
+body.codesearch-theme.spacecadet .CQB > div:first-child > a {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .FYB {
+  border-bottom: 1px solid #333333;
+}
+body.codesearch-theme.spacecadet .EQ {
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .FQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .IYB > pre > a {
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .IYB > pre > a:hover {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .HQ,
+body.codesearch-theme.spacecadet .IL,
+body.codesearch-theme.spacecadet .gwt-TabLayoutPanelTabs-outer,
+body.codesearch-theme.spacecadet .gwt-SplitLayoutPanel-HDragger {
+  background-color: #000000;
+}
+body.codesearch-theme.spacecadet .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.spacecadet .gwt-SplitLayoutPanel-HDragger {
+  background-color: #333333 !important;
+}
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent,
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .FM .IL,
+body.codesearch-theme.spacecadet .gwt-TabLayoutPanelTabs-outer {
+  border-bottom: solid 1px #333333;
+}
+body.codesearch-theme.spacecadet .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.spacecadet .gwt-SplitLayoutPanel-HDragger {
+  background-color: #333333 !important;
+}
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.spacecadet .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #333333;
+}
+body.codesearch-theme.spacecadet .gtb {
+  background-color: #000000;
+  border-bottom: 1px solid #333333;
+}
+body.codesearch-theme.spacecadet a.linelink {
+  background-color: #0d0d0d;
+  color: #333333;
+}
+body.codesearch-theme.spacecadet .CGB {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .IXB {
+  background-color: #333333;
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .gwt-FastTree {
+  background-color: inherit;
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet a.tab.active {
+  background-color: #333333;
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .gwt-FastTree {
+  background-color: inherit;
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .PM {
+  border-left: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+body.codesearch-theme.spacecadet .HQB {
+  background-color: #333333;
+  border-top: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+}
+body.codesearch-theme.spacecadet .F1B {
+  background-color: #333333;
+  border: 1px solid #333333;
+  color: #ffffff;
+}
+body.codesearch-theme.spacecadet .KSB {
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+}

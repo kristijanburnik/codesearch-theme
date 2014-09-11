@@ -22,11 +22,13 @@ if (window == top) {
   var ready = function() {
 
       var themes = [
-        "codesearch-theme default",
         "codesearch-theme monokai",
         "codesearch-theme twilight",
+        "codesearch-theme spacecadet",
+        "codesearch-theme blackboard",
         "" // original native theme
       ];
+
 
       var body = document.getElementsByTagName("body")[0];
       var prefixBodyClass = body.className;
@@ -44,7 +46,14 @@ if (window == top) {
         setTheme(themeIndex);
       }
 
+      var prevTheme = function(){
+        themeIndex = (themeIndex + themes.length - 1) % themes.length;
+        setTheme(themeIndex);
+      }
+
       document.addEventListener("keydown", function(e) {
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 75)
+          prevTheme();
         if (e.ctrlKey && e.shiftKey && e.keyCode == 76)
           nextTheme();
       }); // document.addEventListener
@@ -53,6 +62,25 @@ if (window == top) {
       // init
       var themeIndex = settings['themeIndex'];
       setTheme( themeIndex );
+
+      var server = {
+        setTheme:function(params){
+          themeIndex = params[0];
+          setTheme(themeIndex);
+        },
+        getInfo:function(params){
+          return {
+            themes:themes,
+            themeIndex:themeIndex
+          };
+        }
+      };
+
+      // TODO: one format for all messages
+      chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+          sendResponse(server[request.method](request.params));
+      });
+
 
    }; // ready
 

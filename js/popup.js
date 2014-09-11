@@ -1,45 +1,47 @@
-// Copyright (c) 2011 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
 
-var maps_key = "ABQIAAAATfHumDbW3OmRByfquHd3SRTRERdeAiwZ9EeJWta3L_JZVS0bOBRQeZgr4K0xyVKzUdnnuFl8X9PX0w";
-
-function gclient_geocode(address) {
-  var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' +
-            encodeURIComponent(address) + '&sensor=false';
-  var request = new XMLHttpRequest();
-
-  request.open('GET', url, true);
-  console.log(url);
-  request.onreadystatechange = function (e) {
-    console.log(request, e);
-    if (request.readyState == 4) {
-      if (request.status == 200) {
-        var json = JSON.parse(request.responseText);
-        var latlng = json.results[0].geometry.location;
-        latlng = latlng.lat + ',' + latlng.lng;
-
-        var src = "https://maps.google.com/staticmap?center=" + latlng +
-                  "&markers=" + latlng + "&zoom=14" +
-                  "&size=512x512&sensor=false&key=" + maps_key;
-        var map = document.getElementById("map");
-
-        map.src = src;
-        map.addEventListener('click', function () {
-          window.close();
-        });
-      } else {
-        console.log('Unable to resolve address into lat/lng');
-      }
-    }
-  };
-  request.send(null);
+var server = {
+  __call:function(method,params,responseCallback) {
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      chrome.tabs.sendMessage(
+        tabs[0].id,
+        {method:method,params:params},
+        responseCallback || function(r) {}
+      );
+    });
+  },
+  getInfo:function(responseCallback){
+    server.__call('getInfo', [], responseCallback);
+  },
+  setTheme:function(index, responseCallback){
+    server.__call('setTheme', [index], responseCallback);
+  }
 }
 
-function map() {
-  var address = chrome.extension.getBackgroundPage().selectedAddress;
-  if (address)
-    gclient_geocode(address);
-}
+server.getInfo(function(response) {
+  $("ul").children().remove();
+  var themes = response.themes;
+  var index = response.themeIndex;
+  for (var i in themes) {
 
-window.onload = map;
+    // remove prefix
+    var theme = themes[i].split(' ').pop();
+    if (theme == "")
+        theme = "(no theme)"
+
+    $("ul").append($("<li><a href='javascript:' id='"+i+"'>"+theme+"</a></li>"));
+  }
+
+  var displayCurrent = function(index) {
+    $("a").removeClass("current");
+    $("a[id="+index+"]").addClass("current");
+  }
+
+  $("a").click(function(){
+    var index = $(this).attr("id");
+    server.setTheme(index);
+    displayCurrent(index)
+  });
+
+  displayCurrent(index);
+
+});

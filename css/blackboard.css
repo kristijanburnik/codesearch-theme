@@ -1,0 +1,187 @@
+body.codesearch-theme.blackboard {
+  /* applied to body - to end of file */
+  background-color: #0c1021;
+  color: #eeeeee;
+  /* Theme based syntax highlighting  */
+  /*.stx-line { color: @light-text-color; }*/
+  /* */
+  /* Theme based syntax highlighting  */
+}
+body.codesearch-theme.blackboard .stx-plain {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .stx-comment {
+  color: #999999;
+}
+body.codesearch-theme.blackboard .stx-keyword {
+  color: #fccc29;
+}
+body.codesearch-theme.blackboard .stx-macro,
+body.codesearch-theme.blackboard .stx-macro a {
+  color: #fccc29;
+}
+body.codesearch-theme.blackboard .stx-string,
+body.codesearch-theme.blackboard .stx-string a {
+  color: #6ae63f;
+}
+body.codesearch-theme.blackboard .stx-number {
+  color: #fccc29;
+}
+body.codesearch-theme.blackboard a.NK.NM {
+  color: #fccc29;
+}
+body.codesearch-theme.blackboard .gtb .active {
+  border-color: #202b59;
+}
+body.codesearch-theme.blackboard .IGB > a {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard a,
+body.codesearch-theme.blackboard .O4B,
+body.codesearch-theme.blackboard .gwt-TabText {
+  color: #82b2dd;
+}
+body.codesearch-theme.blackboard a:visited {
+  color: #aaaaaa;
+}
+body.codesearch-theme.blackboard .HO,
+body.codesearch-theme.blackboard div.NQ,
+body.codesearch-theme.blackboard .FM .MQ {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .NM {
+  color: #eeeeee !important;
+  background-color: #444411;
+}
+body.codesearch-theme.blackboard .KMB {
+  border-right: 1px solid #202b59;
+}
+body.codesearch-theme.blackboard .CSB {
+  background-color: #0c1021;
+}
+body.codesearch-theme.blackboard .PRB {
+  background-color: #000000;
+}
+body.codesearch-theme.blackboard .AYB {
+  color: #aaaaaa !important;
+}
+body.codesearch-theme.blackboard .EQ {
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .FQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .AQB {
+  color: inherit;
+}
+body.codesearch-theme.blackboard .CO {
+  background-color: #336698 !important;
+}
+body.codesearch-theme.blackboard .MPB {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .MPB {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .GQB a {
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .AQB {
+  color: inherit;
+}
+body.codesearch-theme.blackboard .CQB > div:first-child > a {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .FYB {
+  border-bottom: 1px solid #202b59;
+}
+body.codesearch-theme.blackboard .EQ {
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .FQ {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .IYB > pre > a {
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .IYB > pre > a:hover {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .HQ,
+body.codesearch-theme.blackboard .IL,
+body.codesearch-theme.blackboard .gwt-TabLayoutPanelTabs-outer,
+body.codesearch-theme.blackboard .gwt-SplitLayoutPanel-HDragger {
+  background-color: #000000;
+}
+body.codesearch-theme.blackboard .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.blackboard .gwt-SplitLayoutPanel-HDragger {
+  background-color: #202b59 !important;
+}
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent,
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .FM .IL,
+body.codesearch-theme.blackboard .gwt-TabLayoutPanelTabs-outer {
+  border-bottom: solid 1px #202b59;
+}
+body.codesearch-theme.blackboard .gwt-SplitLayoutPanel-VDragger,
+body.codesearch-theme.blackboard .gwt-SplitLayoutPanel-HDragger {
+  background-color: #202b59 !important;
+}
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent .outlineparam,
+body.codesearch-theme.blackboard .gwt-FastTree .selected .treeItemContent .outlineicon {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .gtb {
+  background-color: #000000;
+  border-bottom: 1px solid #202b59;
+}
+body.codesearch-theme.blackboard a.linelink {
+  background-color: #0c1021;
+  color: #202b59;
+}
+body.codesearch-theme.blackboard .CGB {
+  background-color: #0c1021;
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .IXB {
+  background-color: #202b59;
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .gwt-FastTree {
+  background-color: inherit;
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard a.tab.active {
+  background-color: #202b59;
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .gwt-FastTree {
+  background-color: inherit;
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .PM {
+  border-left: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+body.codesearch-theme.blackboard .HQB {
+  background-color: #202b59;
+  border-top: 1px solid #202b59;
+  border-bottom: 1px solid #202b59;
+}
+body.codesearch-theme.blackboard .F1B {
+  background-color: #202b59;
+  border: 1px solid #202b59;
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .KSB {
+  border-left: 3px solid #202b59;
+  border-right: 3px solid #202b59;
+  border-bottom: 3px solid #202b59;
+}
