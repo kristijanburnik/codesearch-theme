@@ -13,6 +13,23 @@ color: @text-color;
 a.NK.NM { color:@stx-macro; }
 
 /* */
+.BO.CO { border-color:@light-border-color; }
+.gux-dropdown-c {
+  background-color:@dark-bg-color;
+  color:@text-color;
+  border-color:@border-color;
+}
+.P0B { color: @link-color; }
+.C1B { color: @light-text-color; }
+.A1B { color: @text-color; }
+.M0B {
+  background-color: @selectioncolor;
+}
+.K0B {
+  background-color: @dark-bg-color ;
+  color:@light-text-color;
+  border: 1px solid @border-color;
+}
 .gtb .active { border-color: @border-color; }
 .IGB>a { color: @text-color; }
 a, .O4B, .gwt-TabText { color:@link-color; }
@@ -95,7 +112,7 @@ a.tab.active {
   border-top: 1px solid @border-color;
   border-bottom: 1px solid @border-color;
 }
-.F1B {
+.F1B, .BVB, .B2B, input[type=text] {
   background-color: @selectioncolor;
   border: 1px solid @border-color;
   color:@light-text-color;
@@ -104,4 +121,21 @@ a.tab.active {
   border-left: 3px solid @border-color;
   border-right: 3px solid @border-color;
   border-bottom: 3px solid @border-color;
+}
+.goog-button-base-inner-box {
+  background-color:@selectioncolor;
+  border-color:@border-color !important;
+  color:@text-color;
+}
+.goog-button-base-outer-box {
+  border-color:@border-color !important;
+}
+.goog-button-base-top-shadow {
+  background-color:lighten(@selectioncolor,15%);
+  border-bottom:lighten(@selectioncolor,15%);
+}
+.goog-button-base-hover .goog-button-base-content,
+.goog-button-base-focused .goog-button-base-content,
+.goog-button-base-content {
+  color:@text-color;
 }

@@ -30,6 +30,31 @@ body.codesearch-theme.default .stx-number {
 body.codesearch-theme.default a.NK.NM {
   color: #ff55bb;
 }
+body.codesearch-theme.default .BO.CO {
+  border-color: #888888;
+}
+body.codesearch-theme.default .gux-dropdown-c {
+  background-color: #222222;
+  color: #dddddd;
+  border-color: #444444;
+}
+body.codesearch-theme.default .P0B {
+  color: #82b2dd;
+}
+body.codesearch-theme.default .C1B {
+  color: #eeeeee;
+}
+body.codesearch-theme.default .A1B {
+  color: #dddddd;
+}
+body.codesearch-theme.default .M0B {
+  background-color: #555555;
+}
+body.codesearch-theme.default .K0B {
+  background-color: #222222;
+  color: #eeeeee;
+  border: 1px solid #444444;
+}
 body.codesearch-theme.default .gtb .active {
   border-color: #444444;
 }
@@ -39,7 +64,7 @@ body.codesearch-theme.default .IGB > a {
 body.codesearch-theme.default a,
 body.codesearch-theme.default .O4B,
 body.codesearch-theme.default .gwt-TabText {
-  color: #82B2DD;
+  color: #82b2dd;
 }
 body.codesearch-theme.default a:visited {
   color: #aaaaaa;
@@ -175,7 +200,10 @@ body.codesearch-theme.default .HQB {
   border-top: 1px solid #444444;
   border-bottom: 1px solid #444444;
 }
-body.codesearch-theme.default .F1B {
+body.codesearch-theme.default .F1B,
+body.codesearch-theme.default .BVB,
+body.codesearch-theme.default .B2B,
+body.codesearch-theme.default input[type=text] {
   background-color: #555555;
   border: 1px solid #444444;
   color: #eeeeee;
@@ -184,4 +212,21 @@ body.codesearch-theme.default .KSB {
   border-left: 3px solid #444444;
   border-right: 3px solid #444444;
   border-bottom: 3px solid #444444;
+}
+body.codesearch-theme.default .goog-button-base-inner-box {
+  background-color: #555555;
+  border-color: #444444 !important;
+  color: #dddddd;
+}
+body.codesearch-theme.default .goog-button-base-outer-box {
+  border-color: #444444 !important;
+}
+body.codesearch-theme.default .goog-button-base-top-shadow {
+  background-color: #7b7b7b;
+  border-bottom: #7b7b7b;
+}
+body.codesearch-theme.default .goog-button-base-hover .goog-button-base-content,
+body.codesearch-theme.default .goog-button-base-focused .goog-button-base-content,
+body.codesearch-theme.default .goog-button-base-content {
+  color: #dddddd;
 }

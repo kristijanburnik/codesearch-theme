@@ -10,6 +10,8 @@ Supporting themes:
 - Twilight
 - Space cadet
 - Blackboard
+- Espresso Libre
+- Pastels on Dark
 - ...
 
 Shortcuts:
@@ -19,7 +21,6 @@ Shortcuts:
 ---
 
 More style coverage is incrementally added.
-
 New themes and features coming nightly!
 
 Please comment and report missing parts and/or bugs.

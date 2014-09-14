@@ -30,6 +30,31 @@ body.codesearch-theme.blackboard .stx-number {
 body.codesearch-theme.blackboard a.NK.NM {
   color: #fccc29;
 }
+body.codesearch-theme.blackboard .BO.CO {
+  border-color: #888888;
+}
+body.codesearch-theme.blackboard .gux-dropdown-c {
+  background-color: #000000;
+  color: #eeeeee;
+  border-color: #202b59;
+}
+body.codesearch-theme.blackboard .P0B {
+  color: #82b2dd;
+}
+body.codesearch-theme.blackboard .C1B {
+  color: #ffffff;
+}
+body.codesearch-theme.blackboard .A1B {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .M0B {
+  background-color: #202b59;
+}
+body.codesearch-theme.blackboard .K0B {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #202b59;
+}
 body.codesearch-theme.blackboard .gtb .active {
   border-color: #202b59;
 }
@@ -175,7 +200,10 @@ body.codesearch-theme.blackboard .HQB {
   border-top: 1px solid #202b59;
   border-bottom: 1px solid #202b59;
 }
-body.codesearch-theme.blackboard .F1B {
+body.codesearch-theme.blackboard .F1B,
+body.codesearch-theme.blackboard .BVB,
+body.codesearch-theme.blackboard .B2B,
+body.codesearch-theme.blackboard input[type=text] {
   background-color: #202b59;
   border: 1px solid #202b59;
   color: #ffffff;
@@ -184,4 +212,21 @@ body.codesearch-theme.blackboard .KSB {
   border-left: 3px solid #202b59;
   border-right: 3px solid #202b59;
   border-bottom: 3px solid #202b59;
+}
+body.codesearch-theme.blackboard .goog-button-base-inner-box {
+  background-color: #202b59;
+  border-color: #202b59 !important;
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .goog-button-base-outer-box {
+  border-color: #202b59 !important;
+}
+body.codesearch-theme.blackboard .goog-button-base-top-shadow {
+  background-color: #354691;
+  border-bottom: #354691;
+}
+body.codesearch-theme.blackboard .goog-button-base-hover .goog-button-base-content,
+body.codesearch-theme.blackboard .goog-button-base-focused .goog-button-base-content,
+body.codesearch-theme.blackboard .goog-button-base-content {
+  color: #eeeeee;
 }

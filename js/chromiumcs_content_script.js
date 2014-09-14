@@ -21,14 +21,7 @@ if (window == top) {
 
   var ready = function() {
 
-      var themes = [
-        "codesearch-theme monokai",
-        "codesearch-theme twilight",
-        "codesearch-theme spacecadet",
-        "codesearch-theme blackboard",
-        "" // original native theme
-      ];
-
+      var themes = GENERATED.themes;
 
       var body = document.getElementsByTagName("body")[0];
       var prefixBodyClass = body.className;

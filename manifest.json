@@ -6,14 +6,11 @@
       ], 
       "js": [
         "js/jquery-1.11.1.min.js", 
+        "js/generated.js", 
         "js/chromiumcs_content_script.js"
       ], 
       "css": [
-        "css/default.css", 
-        "css/monokai.css", 
-        "css/twilight.css", 
-        "css/blackboard.css", 
-        "css/spacecadet.css"
+        "css/generated.css"
       ], 
       "run_at": "document_start"
     }
@@ -34,7 +31,7 @@
     "default_icon": "themes-icon.png", 
     "default_popup": "popup.html"
   }, 
-  "version": "0.1.0", 
+  "version": "0.1.1", 
   "manifest_version": 2, 
   "permissions": [
     "tabs", 

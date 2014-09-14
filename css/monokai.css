@@ -30,6 +30,31 @@ body.codesearch-theme.monokai .stx-number {
 body.codesearch-theme.monokai a.NK.NM {
   color: #ff55bb;
 }
+body.codesearch-theme.monokai .BO.CO {
+  border-color: #888888;
+}
+body.codesearch-theme.monokai .gux-dropdown-c {
+  background-color: #222222;
+  color: #dddddd;
+  border-color: #444444;
+}
+body.codesearch-theme.monokai .P0B {
+  color: #82b2dd;
+}
+body.codesearch-theme.monokai .C1B {
+  color: #eeeeee;
+}
+body.codesearch-theme.monokai .A1B {
+  color: #dddddd;
+}
+body.codesearch-theme.monokai .M0B {
+  background-color: #555555;
+}
+body.codesearch-theme.monokai .K0B {
+  background-color: #222222;
+  color: #eeeeee;
+  border: 1px solid #444444;
+}
 body.codesearch-theme.monokai .gtb .active {
   border-color: #444444;
 }
@@ -39,7 +64,7 @@ body.codesearch-theme.monokai .IGB > a {
 body.codesearch-theme.monokai a,
 body.codesearch-theme.monokai .O4B,
 body.codesearch-theme.monokai .gwt-TabText {
-  color: #82B2DD;
+  color: #82b2dd;
 }
 body.codesearch-theme.monokai a:visited {
   color: #aaaaaa;
@@ -175,7 +200,10 @@ body.codesearch-theme.monokai .HQB {
   border-top: 1px solid #444444;
   border-bottom: 1px solid #444444;
 }
-body.codesearch-theme.monokai .F1B {
+body.codesearch-theme.monokai .F1B,
+body.codesearch-theme.monokai .BVB,
+body.codesearch-theme.monokai .B2B,
+body.codesearch-theme.monokai input[type=text] {
   background-color: #555555;
   border: 1px solid #444444;
   color: #eeeeee;
@@ -184,4 +212,21 @@ body.codesearch-theme.monokai .KSB {
   border-left: 3px solid #444444;
   border-right: 3px solid #444444;
   border-bottom: 3px solid #444444;
+}
+body.codesearch-theme.monokai .goog-button-base-inner-box {
+  background-color: #555555;
+  border-color: #444444 !important;
+  color: #dddddd;
+}
+body.codesearch-theme.monokai .goog-button-base-outer-box {
+  border-color: #444444 !important;
+}
+body.codesearch-theme.monokai .goog-button-base-top-shadow {
+  background-color: #7b7b7b;
+  border-bottom: #7b7b7b;
+}
+body.codesearch-theme.monokai .goog-button-base-hover .goog-button-base-content,
+body.codesearch-theme.monokai .goog-button-base-focused .goog-button-base-content,
+body.codesearch-theme.monokai .goog-button-base-content {
+  color: #dddddd;
 }

@@ -30,6 +30,31 @@ body.codesearch-theme.twilight .stx-number {
 body.codesearch-theme.twilight a.NK.NM {
   color: #a8c4db;
 }
+body.codesearch-theme.twilight .BO.CO {
+  border-color: #888888;
+}
+body.codesearch-theme.twilight .gux-dropdown-c {
+  background-color: #070707;
+  color: #dddddd;
+  border-color: #444444;
+}
+body.codesearch-theme.twilight .P0B {
+  color: #cda869;
+}
+body.codesearch-theme.twilight .C1B {
+  color: #eeeeee;
+}
+body.codesearch-theme.twilight .A1B {
+  color: #dddddd;
+}
+body.codesearch-theme.twilight .M0B {
+  background-color: #555555;
+}
+body.codesearch-theme.twilight .K0B {
+  background-color: #070707;
+  color: #eeeeee;
+  border: 1px solid #444444;
+}
 body.codesearch-theme.twilight .gtb .active {
   border-color: #444444;
 }
@@ -175,7 +200,10 @@ body.codesearch-theme.twilight .HQB {
   border-top: 1px solid #444444;
   border-bottom: 1px solid #444444;
 }
-body.codesearch-theme.twilight .F1B {
+body.codesearch-theme.twilight .F1B,
+body.codesearch-theme.twilight .BVB,
+body.codesearch-theme.twilight .B2B,
+body.codesearch-theme.twilight input[type=text] {
   background-color: #555555;
   border: 1px solid #444444;
   color: #eeeeee;
@@ -184,4 +212,21 @@ body.codesearch-theme.twilight .KSB {
   border-left: 3px solid #444444;
   border-right: 3px solid #444444;
   border-bottom: 3px solid #444444;
+}
+body.codesearch-theme.twilight .goog-button-base-inner-box {
+  background-color: #555555;
+  border-color: #444444 !important;
+  color: #dddddd;
+}
+body.codesearch-theme.twilight .goog-button-base-outer-box {
+  border-color: #444444 !important;
+}
+body.codesearch-theme.twilight .goog-button-base-top-shadow {
+  background-color: #7b7b7b;
+  border-bottom: #7b7b7b;
+}
+body.codesearch-theme.twilight .goog-button-base-hover .goog-button-base-content,
+body.codesearch-theme.twilight .goog-button-base-focused .goog-button-base-content,
+body.codesearch-theme.twilight .goog-button-base-content {
+  color: #dddddd;
 }
