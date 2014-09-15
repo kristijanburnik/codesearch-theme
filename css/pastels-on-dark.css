@@ -55,6 +55,14 @@ body.codesearch-theme.pastels-on-dark .K0B {
   color: #ffffff;
   border: 1px solid #494242;
 }
+body.codesearch-theme.pastels-on-dark .gux-combo-item,
+body.codesearch-theme.pastels-on-dark .I2B {
+  color: #eeeeee;
+}
+body.codesearch-theme.pastels-on-dark .gux-combo-item-selected,
+body.codesearch-theme.pastels-on-dark .I2B:hover {
+  background-color: #211e1e;
+}
 body.codesearch-theme.pastels-on-dark .gtb .active {
   border-color: #494242;
 }

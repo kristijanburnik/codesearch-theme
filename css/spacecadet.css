@@ -55,6 +55,14 @@ body.codesearch-theme.spacecadet .K0B {
   color: #ffffff;
   border: 1px solid #333333;
 }
+body.codesearch-theme.spacecadet .gux-combo-item,
+body.codesearch-theme.spacecadet .I2B {
+  color: #eeeeee;
+}
+body.codesearch-theme.spacecadet .gux-combo-item-selected,
+body.codesearch-theme.spacecadet .I2B:hover {
+  background-color: #0d0d0d;
+}
 body.codesearch-theme.spacecadet .gtb .active {
   border-color: #333333;
 }

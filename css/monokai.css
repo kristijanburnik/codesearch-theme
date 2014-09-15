@@ -55,6 +55,14 @@ body.codesearch-theme.monokai .K0B {
   color: #eeeeee;
   border: 1px solid #444444;
 }
+body.codesearch-theme.monokai .gux-combo-item,
+body.codesearch-theme.monokai .I2B {
+  color: #dddddd;
+}
+body.codesearch-theme.monokai .gux-combo-item-selected,
+body.codesearch-theme.monokai .I2B:hover {
+  background-color: #272822;
+}
 body.codesearch-theme.monokai .gtb .active {
   border-color: #444444;
 }

@@ -55,6 +55,14 @@ body.codesearch-theme.espresso-libre .K0B {
   color: #ffffff;
   border: 1px solid #58453b;
 }
+body.codesearch-theme.espresso-libre .gux-combo-item,
+body.codesearch-theme.espresso-libre .I2B {
+  color: #eeeeee;
+}
+body.codesearch-theme.espresso-libre .gux-combo-item-selected,
+body.codesearch-theme.espresso-libre .I2B:hover {
+  background-color: #2a211c;
+}
 body.codesearch-theme.espresso-libre .gtb .active {
   border-color: #58453b;
 }

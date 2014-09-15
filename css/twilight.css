@@ -55,6 +55,14 @@ body.codesearch-theme.twilight .K0B {
   color: #eeeeee;
   border: 1px solid #444444;
 }
+body.codesearch-theme.twilight .gux-combo-item,
+body.codesearch-theme.twilight .I2B {
+  color: #dddddd;
+}
+body.codesearch-theme.twilight .gux-combo-item-selected,
+body.codesearch-theme.twilight .I2B:hover {
+  background-color: #141414;
+}
 body.codesearch-theme.twilight .gtb .active {
   border-color: #444444;
 }

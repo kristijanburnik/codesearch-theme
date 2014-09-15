@@ -55,6 +55,14 @@ body.codesearch-theme.blackboard .K0B {
   color: #ffffff;
   border: 1px solid #202b59;
 }
+body.codesearch-theme.blackboard .gux-combo-item,
+body.codesearch-theme.blackboard .I2B {
+  color: #eeeeee;
+}
+body.codesearch-theme.blackboard .gux-combo-item-selected,
+body.codesearch-theme.blackboard .I2B:hover {
+  background-color: #0c1021;
+}
 body.codesearch-theme.blackboard .gtb .active {
   border-color: #202b59;
 }
