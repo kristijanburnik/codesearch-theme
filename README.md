@@ -12,6 +12,7 @@ Supporting themes:
 - Blackboard
 - Espresso Libre
 - Pastels on Dark
+- Zenburnesque
 - ...
 
 Shortcuts:
