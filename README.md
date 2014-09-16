@@ -13,7 +13,7 @@ Supporting themes:
 - Espresso Libre
 - Pastels on Dark
 - Zenburnesque
-- ...
+- Cobalt
 
 Shortcuts:
 - Next theme: CTRL + SHIFT + L.
