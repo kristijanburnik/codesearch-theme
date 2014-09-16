@@ -8,5 +8,6 @@ GENERATED.themes = [
 "codesearch-theme espresso-libre",
 "codesearch-theme pastels-on-dark",
 "codesearch-theme zenburnesque",
+"codesearch-theme cobalt",
 "" // original native theme
 ];
