@@ -15,10 +15,10 @@ a.NK.NM { color:@stx-macro; }
   color:@text-color;
   border-color:@border-color;
 }
-.P0B { color: @link-color; }
+.P0B, a.EYB, .EYB { color: @link-color; }
 .C1B { color: @light-text-color; }
 .A1B { color: @text-color; }
-.M0B {
+.M0B, .JO {
   background-color: @selectioncolor;
 }
 .K0B {
@@ -33,16 +33,22 @@ a.NK.NM { color:@stx-macro; }
 a, .O4B, .gwt-TabText { color:@link-color; }
 a:visited { color: @visited-color; }
 .HO, div.NQ, .FM .MQ { background-color: @selectioncolor; }
-.NM { color: @hover-selection-color !important;
-  background-color:@hover-selection-bg-color; }
+.NM {
+  color: @hover-selection-color !important;
+  background-color:@hover-selection-bg-color;
+}
+.EO {
+  color: @hover-selection-color;
+  background-color:@hover-selection-bg-color;
+  border:noe
+}
 .KMB { border-right: 1px solid @border-color; }
-.CSB { background-color: @bg-color; }
 .PRB { background-color: @dark-bg-color; }
 .AYB { color:@visited-color !important; }
 .EQ { color:@light-text-color; }
 .FQ { color:@text-color; }
 .AQB { color:inherit; }
-.CO { background-color: #336698 !important; }
+.CO { background-color: @bg-color; }
 .MPB { background-color: @border-color; }
 .MPB { color:@text-color; }
 .GQB a { color: @light-text-color; }
@@ -53,6 +59,7 @@ a:visited { color: @visited-color; }
 .FQ { color:@text-color; }
 .IYB>pre>a { color: @light-text-color; }
 .IYB>pre>a:hover { background-color: @border-color; }
+.MYB>pre>a:hover { background-color: @border-color; }
 .HQ, .IL, .gwt-TabLayoutPanelTabs-outer, .gwt-SplitLayoutPanel-HDragger
 { background-color:@dark-bg-color; }
 .gwt-SplitLayoutPanel-VDragger, .gwt-SplitLayoutPanel-HDragger
@@ -100,10 +107,14 @@ a.tab.active {
   background-color: inherit;
   color:@text-color;
 }
-.PM {
+/*.PM {
   border-left: 3px solid @dark-bg-color ;
   border-bottom: 3px solid @dark-bg-color ;
   border-right: 3px solid @dark-bg-color ;
+}*/
+.PK.PM {
+  text-decoration:none;
+  color:@hover-selection-color !important;
 }
 .HQB {
   background-color: @border-color;
@@ -137,3 +148,44 @@ a.tab.active {
 .goog-button-base-content {
   color:@text-color;
 }
+.MXB, .DSB {
+  background-color:@dark-bg-color;
+}
+.GSB {
+  background-color:@bg-color;
+}
+.OSB {
+  border-color:@dark-bg-color !important;
+}
+.LQB {
+  background:@bg-color;
+  border-color:@dark-bg-color !important;
+}
+.AQB {
+  background-color:@dark-bg-color;
+}
+.EGB.LO {
+  background-color:@bg-color;
+}
+.KQB .HQB {
+  background-color:@bg-color;
+  border:none;
+}
+.KL {
+  background-color:@dark-bg-color;
+  border-color:@border-color;
+}
+.PQ {
+  background-color:@selectioncolor;
+}
+.BN{
+  border-color:@border-color;
+}
+.JYB { border-color:@dark-bg-color; }
+a.EYB { color:@link-color !important; }
+.C5B { color:@link-color !important; }
+.GQB>div:first-child>a:hover {
+  color:@text-color;
+}
+.EQB { color:@text-color; }
+.HM .OQ { background-color:@selectioncolor; }
