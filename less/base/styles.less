@@ -63,7 +63,7 @@ a:visited { color: @visited-color; }
 .HQ, .IL, .gwt-TabLayoutPanelTabs-outer, .gwt-SplitLayoutPanel-HDragger
 { background-color:@dark-bg-color; }
 .gwt-SplitLayoutPanel-VDragger, .gwt-SplitLayoutPanel-HDragger
-{ background-color: @border-color !important; }
+{ background-color: @dark-bg-color !important; }
 .gwt-FastTree .selected .treeItemContent,
 .gwt-FastTree .selected .treeItemContent .outlineparam,
 .gwt-FastTree .selected .treeItemContent .outlineicon
@@ -121,10 +121,13 @@ a.tab.active {
   border-top: 1px solid @border-color;
   border-bottom: 1px solid @border-color;
 }
-.F1B, .BVB, .B2B, input[type=text] {
+.F1B, .BVB, input[type=text] {
   background-color: @selectioncolor;
   border: 1px solid @border-color;
   color:@light-text-color;
+}
+.B2B {
+  background-color:@dark-bg-color;
 }
 .KSB {
   border-left: 3px solid @border-color;
@@ -189,3 +192,30 @@ a.EYB { color:@link-color !important; }
 }
 .EQB { color:@text-color; }
 .HM .OQ { background-color:@selectioncolor; }
+.JQ { background-color:@bg-color; }
+.A2B:hover.K1B {
+  background-color:@dark-bg-color;
+}
+.O0B {
+  background-color:@border-color;
+}
+.G1B {
+  color:@light-text-color;
+}
+.E1B {
+  color:@text-color;
+}
+.D1B {
+  color:@link-color;
+}
+.F1B {
+  background-color:@border-color;
+  border-color:@border-color;
+}
+.A1B {
+  background-color:@selectioncolor;
+}
+.A1B .F1B {
+ background-color:@selectioncolor;
+ border-color:@selectioncolor;
+}
