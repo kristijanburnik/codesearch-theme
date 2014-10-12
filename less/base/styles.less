@@ -19,7 +19,7 @@ a.NK.NM { color:@stx-macro; }
 .C1B { color: @light-text-color; }
 .A1B { color: @text-color; }
 .M0B, .JO {
-  background-color: @selectioncolor;
+  background-color: @selection-color;
 }
 .K0B {
   background-color: @dark-bg-color ;
@@ -32,7 +32,7 @@ a.NK.NM { color:@stx-macro; }
 .IGB>a { color: @text-color; }
 a, .O4B, .gwt-TabText { color:@link-color; }
 a:visited { color: @visited-color; }
-.HO, div.NQ, .FM .MQ { background-color: @selectioncolor; }
+.HO, div.NQ, .FM .MQ { background-color: @selection-color; }
 .NM {
   color: @hover-selection-color !important;
   background-color:@hover-selection-bg-color;
@@ -60,32 +60,32 @@ a:visited { color: @visited-color; }
 .IYB>pre>a { color: @light-text-color; }
 .IYB>pre>a:hover { background-color: @border-color; }
 .MYB>pre>a:hover { background-color: @border-color; }
-.HQ, .IL, .gwt-TabLayoutPanelTabs-outer, .gwt-SplitLayoutPanel-HDragger
+.IL, .gwt-TabLayoutPanelTabs-outer, .gwt-SplitLayoutPanel-HDragger
 { background-color:@dark-bg-color; }
 .gwt-SplitLayoutPanel-VDragger, .gwt-SplitLayoutPanel-HDragger
 { background-color: @dark-bg-color !important; }
 .gwt-FastTree .selected .treeItemContent,
 .gwt-FastTree .selected .treeItemContent .outlineparam,
 .gwt-FastTree .selected .treeItemContent .outlineicon
-{ background-color: @selectioncolor; }
+{ background-color: @selection-color; }
 .FM .IL , .gwt-TabLayoutPanelTabs-outer
 { border-bottom: solid 1px @border-color; }
 .gwt-SplitLayoutPanel-VDragger, .gwt-SplitLayoutPanel-HDragger
 { background-color: @border-color !important; }
 .gwt-FastTree .selected .treeItemContent {
-  background-color: @selectioncolor;
+  background-color: @selection-color;
   .outlineparam, .outlineicon
   {
-    background-color: @selectioncolor;
+    background-color: @selection-color;
   }
 }
 .gtb {
   background-color: @dark-bg-color ;
-  border-bottom: 1px solid @selectioncolor ;
+  border-bottom: 1px solid @selection-color ;
 }
 a.linelink {
   background-color:@bg-color ;
-  color:@selectioncolor ;
+  color:@selection-color ;
 }
 .CGB {
   background-color: @bg-color ;
@@ -100,7 +100,7 @@ a.linelink {
   color:@text-color;
 }
 a.tab.active {
-  background-color: @selectioncolor ;
+  background-color: @selection-color ;
   color: @light-text-color ;
 }
 .gwt-FastTree {
@@ -122,7 +122,7 @@ a.tab.active {
   border-bottom: 1px solid @border-color;
 }
 .F1B, .BVB, input[type=text] {
-  background-color: @selectioncolor;
+  background-color: @selection-color;
   border: 1px solid @border-color;
   color:@light-text-color;
 }
@@ -135,7 +135,7 @@ a.tab.active {
   border-bottom: 3px solid @border-color;
 }
 .goog-button-base-inner-box {
-  background-color:@selectioncolor;
+  background-color:@selection-color;
   border-color:@border-color !important;
   color:@text-color;
 }
@@ -143,8 +143,8 @@ a.tab.active {
   border-color:@border-color !important;
 }
 .goog-button-base-top-shadow {
-  background-color:lighten(@selectioncolor,15%);
-  border-bottom:lighten(@selectioncolor,15%);
+  background-color:lighten(@selection-color,15%);
+  border-bottom:lighten(@selection-color,15%);
 }
 .goog-button-base-hover .goog-button-base-content,
 .goog-button-base-focused .goog-button-base-content,
@@ -179,7 +179,7 @@ a.tab.active {
   border-color:@border-color;
 }
 .PQ {
-  background-color:@selectioncolor;
+  background-color:@selection-color;
 }
 .BN{
   border-color:@border-color;
@@ -191,7 +191,7 @@ a.EYB { color:@link-color !important; }
   color:@text-color;
 }
 .EQB { color:@text-color; }
-.HM .OQ { background-color:@selectioncolor; }
+.HM .OQ { background-color:@selection-color; }
 .JQ { background-color:@bg-color; }
 .A2B:hover.K1B {
   background-color:@dark-bg-color;
@@ -213,9 +213,45 @@ a.EYB { color:@link-color !important; }
   border-color:@border-color;
 }
 .A1B {
-  background-color:@selectioncolor;
+  background-color:@selection-color;
 }
 .A1B .F1B {
- background-color:@selectioncolor;
- border-color:@selectioncolor;
+ background-color:@selection-color;
+ border-color:@selection-color;
+}
+.NXB{
+  background-color:@border-color;
+}
+a.FYB {
+  color:@text-color !important;
+}
+.NYB>pre>a {
+  color:@text-color;
+}
+.NYB>pre>a:hover {
+  background-color:@selection-color;
+}
+a.MYB.IQ:hover{
+  color:@text-color;
+}
+.B1B, .B1B div.F1B {
+  background-color:@bg-color !important;
+  border-color:transparent;
+}
+.D5B {
+  color:@text-color !important;
+}
+.N2B:hover { 
+  background-color:@selection-color;
+}
+
+.B2B:hover.L1B {
+  background-color:@bg-color;
+}
+.treeItemContent .GQ {
+  color:@text-color;
+}
+.treeItemContent .HQ {
+  background-color:inherit;
+  color:@text-color;
 }
